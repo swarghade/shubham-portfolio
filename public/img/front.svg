@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 768" style="enable-background:new 0 0 600 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Roboto-Black';}
+	.st3{font-size:36px;}
+	.st4{font-size:31.3548px;}
+	.st5{font-size:17.8065px;}
+	.st6{font-size:39.4839px;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st8{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+	.st9{font-size:26.9813px;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st11{font-size:12px;}
+</style>
+<rect x="55" y="75" class="st0" width="197" height="93"/>
+<text transform="matrix(1 0 0 1 82.9746 134.5376)" class="st1 st2 st3">PYTHON</text>
+<rect x="201" y="323" class="st0" width="171.58" height="81"/>
+<text transform="matrix(1 0 0 1 220.1392 374.8555)" class="st1 st2 st4">JAVASCRIPT</text>
+<rect x="358.23" y="178" class="st0" width="128.11" height="46"/>
+<text transform="matrix(1 0 0 1 372.0652 207.4492)" class="st1 st2 st5">EXPRESS.JS</text>
+<rect x="44.2" y="439" class="st0" width="114.87" height="102"/>
+<text transform="matrix(1 0 0 1 74.8779 504.2998)" class="st1 st2 st6">NODE.JS</text>
+<rect x="317.2" y="484.15" class="st7" width="158.8" height="17.35"/>
+<text transform="matrix(1 0 0 1 338.1641 493.9209)" class="st8 st2 st9">TABLEAU</text>
+<rect x="406" y="264" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 833.1974 580)" class="st0" width="21.2" height="52"/>
+<text transform="matrix(1 0 0 1 441.0344 299.4492)" class="st1 st2 st5">HTML5</text>
+<path class="st0" d="M229,264h-98.8c-12.7,0-23-10.3-23-23v0c0-12.7,10.3-23,23-23H229c12.7,0,23,10.3,23,23v0
+	C252,253.7,241.7,264,229,264z"/>
+<text transform="matrix(1 0 0 1 121.0343 247.4492)" class="st1 st2 st5">MATPLOTLIB</text>
+<path class="st0" d="M308,473h-49.77c-12.7,0-23-10.3-23-23v0c0-12.7,10.3-23,23-23H308c12.7,0,23,10.3,23,23v0
+	C331,462.7,320.7,473,308,473z"/>
+<text transform="matrix(1 0 0 1 249.0652 456.4492)" class="st1 st2 st5">PANDAS</text>
+<path class="st0" d="M244,618h-41.8c-12.7,0-23-10.3-23-23l0,0c0-12.7,10.3-23,23-23H244c12.7,0,23,10.3,23,23l0,0
+	C267,607.7,256.7,618,244,618z"/>
+<text transform="matrix(1 0 0 1 193.0344 601.4492)" class="st1 st2 st5">PLOTLY</text>
+<rect x="488" y="388" class="st10" width="28" height="46"/>
+<text transform="matrix(1 0 0 1 446.0344 417.4492)" class="st1 st2 st5">NUMPY</text>
+<rect x="400.2" y="99" class="st0" width="110.8" height="46"/>
+<text transform="matrix(1 0 0 1 414.0344 128.4492)" class="st1 st2 st5">MONGODB</text>
+<rect x="358.2" y="526" class="st0" width="143.8" height="46"/>
+<text transform="matrix(1 0 0 1 372.0344 555.4492)" class="st1 st2 st5">POSTGRESQL</text>
+<path class="st7" d="M84.46,350.08H60.74c-9.69,0-17.54-7.85-17.54-17.54v0c0-9.69,7.85-17.54,17.54-17.54h23.72
+	c9.69,0,17.54,7.85,17.54,17.54v0C102,342.23,94.15,350.08,84.46,350.08z"/>
+<text transform="matrix(1 0 0 1 57.0343 337.4492)" class="st1 st2 st11">EXCEL</text>
+</svg>
