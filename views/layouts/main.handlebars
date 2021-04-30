@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#home">MAIN <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home"> MAIN<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#MyProjects">My Projects</a>
@@ -39,15 +39,15 @@
 <body>
     <section id="home">
         <div class=".col-md-container" id="section-1-gradient">
-            <div class="row" id="wide">
+            <div class="row">
                 <div class="center">
-                    <div class="blurred-box">
+                    <div class="blurred-box justify-content-center">
                         <div>
                             <img src="/public/img/profilepic.jpg" class="diamond-img" alt="">
                         </div>
 
-                        <h1 class="titleHead"> Hi I'am Shubham</h1>
-                        <h2 class="titleHead"> I am a Business Analyst || Web Programmer</h1>
+                        <h1 style="color: #fff; text-align:center;"> Hi I'am Shubham</h1>
+                        <h2 style="color: #fff; text-align:center;"> I am a Business Analyst || Web Programmer</h1>
                             <p style="color: #fff;" class="titleHead"> I am currently pursuing my <strong>Masters in
                                     Information Systems
                                     (MIS)</strong> at
@@ -64,7 +64,6 @@
                 </div>
 
             </div>
-            <h1>hi</h1>
         </div>
     </section>
     <div class="row">
@@ -107,94 +106,101 @@
         <div class="wrapper">
             <h1 class="hovTitle">My Projects</h1>
             <div class="bgBox"></div>
-
-            <div class="cards">
-                <div class="row" id="card-holder">
-                    <div class="col-8" id="inner-card">
-                        <h1 class="card-title">YLINE.in</h1>
-                        <span class="badge badge-pill badge-light">Node.js</span>
-                        <span class="badge badge-pill badge-light">PostgreSQL</span>
-                        <span class="badge badge-pill badge-light">Python</span>
-                        <span class="badge badge-pill badge-light">Express.js</span>
-                        <p class="card-text">Structured a SaaS for online appointments to promote social
-                            distancing
-                            using
-                            Node.js, Express.js, PostgreSQL. Analyzed local businesses using classification models
-                            (CART, Random
-                            Forest,
-                            Regression) to foresee spread of covid based on their customer intel</p>
-                        <a href="https://yline.in/shops" target="_blank" class="btn btn-outline-dark"
-                            id="bttn">Visit</a>
-                        <a href="https://yline.in/mission" target="_blank" class="btn btn-outline-dark"
-                            id="bttn">Mission</a>
-
-
-                    </div>
-                    <div class="col-4">
-                        <img class="card-img-top" src="/public/img/yline.jpg" alt="Card image cap">
-                    </div>
-                </div>
-
-                <div class="row" id="card-holder2">
-                    <div class="col-8" id="inner-card">
-                        <h1 class="card-title">The Fire Protection Company</h1>
-                        <span class="badge badge-pill badge-light">Node.js</span>
-                        <span class="badge badge-pill badge-light">PostgreSQL</span>
-                        <p class="card-text">Contributed in developing three submodules of an ERP system to boost
-                            productivity and ensure smooth functioning of the business using Node.js, PostgreSQL.
-                            Drafted former/later BPMN process projecting 23% faster process completion. Project achieved
-                            goal of seamlessly automating complex manual tasks and digitizing their process
-                        </p>
-                        <a href="https://github.com/swarghade/tfpc-erp-system" class="btn btn-outline-dark"
-                            id="bttn">Github</a>
-
-                    </div>
-                    <div class="col-4">
-                        <img class="card-img-top" src="/public/img/tfpc.png" alt="Card image cap">
-                    </div>
-                </div>
-                <div class="row" id="card-holder3">
-                    <div class="col-8" id="inner-card">
-                        <h1 class="card-title">Essential Tech(Company)</h1>
-                        <span class="badge badge-pill badge-light">Node.js</span>
-                        <span class="badge badge-pill badge-light">PostgreSQL</span>
-                        <p class="card-text">Developed 5 websites and 3 full-stack web applications which enabled
-                            clients to expand their businesses and accelerate sales by 17%. • Conducted bi-weekly
-                            sprints with team members leveraging agile methodologies facilitating collaboration and
-                            timeliness. Assisted in generating leads of 5+ clients by maintaining client relationships
-                            and holding meetings
-                        </p>
-                        <a href="https://essentialtech.in/" class="btn btn-outline-dark" id="bttn">Website</a>
-
-                    </div>
-                    <div class="col-4">
-                        <img class="card-img-top" src="/public/img/essential.jpg" alt="Card image cap">
-                    </div>
-                </div>
-                <div class="row" id="card-holder4">
-                    <div class="col-8" id="inner-card">
-                        <h1 class="card-title">Potential Buyers Prediction</h1>
-                        <span class="badge badge-pill badge-light">KNN</span>
-                        <span class="badge badge-pill badge-light">Pandas</span>
-                        <span class="badge badge-pill badge-light">Numpy</span>
-                        <span class="badge badge-pill badge-light">Matplotlib</span>
-                        <p class="card-text">Customer prediction whether he will purchase the product of a company or
-                            not to buy the product of the company. To analyze the data set and the patterns of the
-                            company, methodologies are applied for achieving the target audience and for refinement of
-                            advertising to reach potential customers. A customer analysis is a critical section of a
-                            company's business plan or marketing plan.
-                        </p>
-                        <a href="https://github.com/swarghade/social-network-analytics" class="btn btn-outline-dark"
-                            id="bttn">Website</a>
-
-                    </div>
-                    <div class="col-4">
-                        <img class="card-img-top" src="/public/img/Potential Buyer.jpg" alt="Card image cap">
+            <div class="cards row justify-content-center">
+                <div class="col-10">
+                    <div class="row card-holder">
+                        <div class="col-md-4 col-xs-10">
+                            <img class="card-img-top" src="/public/img/yline.jpg" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 col-xs-10" id="inner-card">
+                            <h1 class="card-title">YLINE.in</h1>
+                            <span class="badge badge-pill badge-light">Node.js</span>
+                            <span class="badge badge-pill badge-light">PostgreSQL</span>
+                            <span class="badge badge-pill badge-light">Python</span>
+                            <span class="badge badge-pill badge-light">Express.js</span>
+                            <p class="card-text">Structured a SaaS for online appointments to promote social
+                                distancing
+                                using
+                                Node.js, Express.js, PostgreSQL. Analyzed local businesses using classification models
+                                (CART, Random
+                                Forest,
+                                Regression) to foresee spread of covid based on their customer intel</p>
+                            <a href="https://yline.in/shops" target="_blank" class="btn btn-outline-dark"
+                                id="bttn">Visit</a>
+                            <a href="https://yline.in/mission" target="_blank" class="btn btn-outline-dark"
+                                id="bttn">Mission</a>
+                        </div>
                     </div>
                 </div>
 
+                <div class="col-10">
+                    <div class="row card-holder">
+                        <div class="col-md-4 col-xs-10">
+                            <img class="card-img-top" src="/public/img/tfpc.png" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 col-xs-10" id="inner-card">
+                            <h1 class="card-title">The Fire Protection Company</h1>
+                            <span class="badge badge-pill badge-light">Node.js</span>
+                            <span class="badge badge-pill badge-light">PostgreSQL</span>
+                            <p class="card-text">Contributed in developing three submodules of an ERP system to boost
+                                productivity and ensure smooth functioning of the business using Node.js, PostgreSQL.
+                                Drafted former/later BPMN process projecting 23% faster process completion. Project
+                                achieved
+                                goal of seamlessly automating complex manual tasks and digitizing their process
+                            </p>
+                            <a href="https://github.com/swarghade/tfpc-erp-system" class="btn btn-outline-dark"
+                                id="bttn">Github</a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-10">
+                    <div class="row card-holder" id="card-holder">
+                        <div class="col-md-4 col-xs-10">
+                            <img class="card-img-top" src="/public/img/essential.jpg" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 col-xs-10" id="inner-card">
+                            <h1 class="card-title">Essential Tech(Company)</h1>
+                            <span class="badge badge-pill badge-light">Node.js</span>
+                            <span class="badge badge-pill badge-light">PostgreSQL</span>
+                            <p class="card-text">Developed 5 websites and 3 full-stack web applications which enabled
+                                clients to expand their businesses and accelerate sales by 17%. • Conducted bi-weekly
+                                sprints with team members leveraging agile methodologies facilitating collaboration and
+                                timeliness. Assisted in generating leads of 5+ clients by maintaining client
+                                relationships
+                                and holding meetings
+                            </p>
+                            <a href="https://essentialtech.in/" class="btn btn-outline-dark" id="bttn">Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10">
+                    <div class="row card-holder" id="card-holder">
+                        <div class="col-md-4 col-xs-10">
+                            <img class="card-img-top" src="/public/img/Potential Buyer.jpg" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 col-xs-10" id="inner-card">
+                            <h1 class="card-title">Potential Buyers Prediction</h1>
+                            <span class="badge badge-pill badge-light">KNN</span>
+                            <span class="badge badge-pill badge-light">Pandas</span>
+                            <span class="badge badge-pill badge-light">Numpy</span>
+                            <span class="badge badge-pill badge-light">Matplotlib</span>
+                            <p class="card-text">Customer prediction whether he will purchase the product of a company
+                                or
+                                not to buy the product of the company. To analyze the data set and the patterns of the
+                                company, methodologies are applied for achieving the target audience and for refinement
+                                of
+                                advertising to reach potential customers. A customer analysis is a critical section of a
+                                company's business plan or marketing plan.
+                            </p>
+                            <a href="https://github.com/swarghade/social-network-analytics" class="btn btn-outline-dark"
+                                id="bttn">Website</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
         </div>
     </section>
 
